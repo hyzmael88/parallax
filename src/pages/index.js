@@ -2,7 +2,7 @@ import { useParallax } from 'react-scroll-parallax'
 import React, { useRef } from 'react'
 import Image from 'next/image'
 
-export default function Home() {
+export default function Index() {
 
   const target = useRef(null)
   const train = useParallax({
@@ -55,11 +55,7 @@ export default function Home() {
        
 
     </div>
-     <div>
-     <span className='text-yellow-500'>
-       Hola
-     </span>
-   </div>
+     
         </div>
   )
 }
