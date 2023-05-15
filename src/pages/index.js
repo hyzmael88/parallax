@@ -42,14 +42,14 @@ export default function Index() {
       </div>
       <div ref={train.ref} className='absolute'
         style={{
-          top:'11vh',
-          left:'30vw',
+          top:'32%',
+          left:'60%',
         }}
         >
         <Image src="/Train.png" height={350} width={700} alt='train'/>
 
       </div>
-      <div ref={cloud.ref} className='absolute top-10'>
+      <div ref={cloud.ref} className='absolute top-[50%]'>
         <Image src='/Cloud.png' height={200} width={1000} alt='cloud'/>
       </div>
        
